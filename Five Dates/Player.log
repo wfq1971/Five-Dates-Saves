@@ -1,0 +1,1346 @@
+Initialize engine version: 2020.3.39f1 (fd6670bb8be9)
+[Subsystems] Discovering subsystems at path D:/Five.Dates.Build.10269082/Five.Dates.Build.10269082/Five.Dates.Build.10269082/FiveDates_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8073 MB
+    Driver:   31.0.15.4601
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.583200 ms
+InControl (version 1.8.7 build 9372)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+System.Action`1:Invoke(T)
+InControl.Logger:LogInfo(String)
+InControl.InControlManager:OnEnable()
+
+[MonoSingleton] Initialized AchievementManager
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Core.MonoSingleton`1:get_Instance()
+
+[MonoSingletonPrefab] Initialized SpriteManager
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Core.MonoSingletonPrefab`1:get_Instance()
+WalesInteractive.Game.InputSystem:Awake()
+UnityEngine.GameObject:AddComponent()
+WalesInteractive.Core.MonoSingleton`1:get_Instance()
+
+[MonoSingleton] Initialized InputSystem
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Core.MonoSingleton`1:get_Instance()
+
+[MonoSingleton] Initialized SaveManager
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Core.MonoSingleton`1:get_Instance()
+
+[MonoSingleton] Initialized SteamManager
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Core.MonoSingleton`1:get_Instance()
+WalesInteractive.Game.<Start>d__1:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[SteamManager] Initialise
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SteamManager:Initialize(UInt32)
+WalesInteractive.Game.<Start>d__1:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[MonoSingleton] Initialized VideoLoader
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Core.MonoSingleton`1:get_Instance()
+WalesInteractive.Video.VideoTexture:Open(String, Boolean, Boolean, Nullable`1)
+WalesInteractive.Game.<Start>d__1:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[MonoSingleton] Initialized SceneManager
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Core.MonoSingleton`1:get_Instance()
+WalesInteractive.Game.<Start>d__18:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[MonoSingleton] Initialized SaveManager
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Core.MonoSingleton`1:get_Instance()
+WalesInteractive.Game.<Start>d__18:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[AchievementManager] Steam RequestCurrentStats result: True
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Achievements.<Start>d__0:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.883300 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3164.
+Total: 6.402300 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.193300 ms MarkObjects: 5.964200 ms  DeleteObjects: 0.048800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3164.
+Total: 5.756400 ms (FindLiveObjects: 0.205700 ms CreateObjectMapping: 0.093300 ms MarkObjects: 5.448500 ms  DeleteObjects: 0.008600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.840200 ms
+[MonoSingletonPrefab] Initialized LocalizationSystem
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Core.MonoSingletonPrefab`1:get_Instance()
+WalesInteractive.UI.LocalizedTextMeshProUGUI:Refresh(String)
+
+[HUD] SceneLoaded Frontend
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.HUD:SceneLoaded(String)
+System.Action`1:Invoke(T)
+WalesInteractive.Game.<LoadSceneInternal>d__14:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3248.
+Total: 10.421600 ms (FindLiveObjects: 0.204800 ms CreateObjectMapping: 0.095200 ms MarkObjects: 10.047300 ms  DeleteObjects: 0.073600 ms)
+
+[SaveSystem] LoadFromFile: OptionsData
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Save.<LoadFromFile>d__3:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+WalesInteractive.Save.<LoadFromFile>d__6:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+WalesInteractive.Game.<LoadOptionsData>d__18:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[SaveSystem] File size: 134
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Save.<LoadFromFile>d__3:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+WalesInteractive.Save.<LoadFromFile>d__6:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+WalesInteractive.Game.<LoadOptionsData>d__18:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[SaveSystem] LoadFromFile: StoryData
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Save.<LoadFromFile>d__3:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+WalesInteractive.Save.<LoadFromFile>d__6:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+WalesInteractive.Game.<LoadStoryData>d__20:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[SaveSystem] File size: 24575
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Save.<LoadFromFile>d__3:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+WalesInteractive.Save.<LoadFromFile>d__6:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+WalesInteractive.Game.<LoadStoryData>d__20:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[LocalizationSystem] SetLocalizedPresence Presence_MainMenu
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Localization.LocalizationSystem:SetLocalizedPresence(String)
+WalesInteractive.Game.<Start>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Unable to send 'game_start' event (Result: 'AnalyticsDisabled').
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+UnityEngine.Analytics.AnalyticsEvent:Custom(String, IDictionary`2)
+WalesInteractive.Game.MainMenuPanel:ActuallyStartNewGame()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+Copying persistent variable: f8df8c22-025f-4235-aacb-899ca2be088e
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.StoryState:.ctor(StoryState)
+WalesInteractive.Game.StoryData:.ctor(StoryData)
+WalesInteractive.Game.MainMenuPanel:ActuallyStartNewGame()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+Copying persistent variable: d920eaf6-4016-46fb-8384-00efaea2912a
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.StoryState:.ctor(StoryState)
+WalesInteractive.Game.StoryData:.ctor(StoryData)
+WalesInteractive.Game.MainMenuPanel:ActuallyStartNewGame()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+Copying persistent variable: 8736f036-b7a5-42d6-9629-ec166a164cf8
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.StoryState:.ctor(StoryState)
+WalesInteractive.Game.StoryData:.ctor(StoryData)
+WalesInteractive.Game.MainMenuPanel:ActuallyStartNewGame()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+Copying persistent variable: b002edd4-862b-4ed4-96f0-51f20a0b4af2
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.StoryState:.ctor(StoryState)
+WalesInteractive.Game.StoryData:.ctor(StoryData)
+WalesInteractive.Game.MainMenuPanel:ActuallyStartNewGame()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+Copying persistent variable: 68975baf-5cd2-4021-a334-3cd9d3adcdf7
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.StoryState:.ctor(StoryState)
+WalesInteractive.Game.StoryData:.ctor(StoryData)
+WalesInteractive.Game.MainMenuPanel:ActuallyStartNewGame()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+Copying persistent variable: 096ad304-93d1-4010-8827-84beff102660
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.StoryState:.ctor(StoryState)
+WalesInteractive.Game.StoryData:.ctor(StoryData)
+WalesInteractive.Game.MainMenuPanel:ActuallyStartNewGame()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.818500 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3228.
+Total: 9.762700 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.086100 ms MarkObjects: 9.387400 ms  DeleteObjects: 0.080000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3227.
+Total: 9.846500 ms (FindLiveObjects: 0.197900 ms CreateObjectMapping: 0.083100 ms MarkObjects: 9.547200 ms  DeleteObjects: 0.012400 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.454000 ms
+[LocalizationSystem] SetLocalizedPresence Presence_InGame
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Localization.LocalizationSystem:SetLocalizedPresence(String)
+
+[HUD] SceneLoaded Game
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.HUD:SceneLoaded(String)
+System.Action`1:Invoke(T)
+WalesInteractive.Game.<LoadSceneInternal>d__14:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 11186.
+Total: 26.268400 ms (FindLiveObjects: 0.915900 ms CreateObjectMapping: 0.201400 ms MarkObjects: 25.113500 ms  DeleteObjects: 0.037100 ms)
+
+Overriding initial value from prev state: MAYA SUCCESS
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:ClearState(StoryState)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Overriding initial value from prev state: GRACE SUCCESS
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:ClearState(StoryState)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Overriding initial value from prev state: SAFFRON SUCCESS
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:ClearState(StoryState)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Overriding initial value from prev state: SHAINA SUCCESS
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:ClearState(StoryState)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Overriding initial value from prev state: PAIGE SUCCESS
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:ClearState(StoryState)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Overriding initial value from prev state: FAILED DATES
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:ClearState(StoryState)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToChapter: e9d977f2-2d11-4a37-bdf9-96e82be31efb
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToChapter(String, Boolean)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryChapterChanged e9d977f2-2d11-4a37-bdf9-96e82be31efb -- PROLOGUE
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryChapterChanged(StoryChapter)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnChapterChanged()
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToChapter(String, Boolean)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[SaveSystem] SaveToFile: StoryData
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Save.SaveSystemSteam:SaveToFile(String, String, String)
+WalesInteractive.Game.GameLogic:SaveStoryData()
+WalesInteractive.Game.GameLogic:StoryChapterChanged(StoryChapter)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnChapterChanged()
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToChapter(String, Boolean)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[SaveSystem] SaveToFile result: True
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Save.SaveSystemSteam:SaveToFile(String, String, String)
+WalesInteractive.Game.GameLogic:SaveStoryData()
+WalesInteractive.Game.GameLogic:StoryChapterChanged(StoryChapter)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnChapterChanged()
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToChapter(String, Boolean)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged ad2c6a4b-85f4-4ba3-bb06-65be14e974e0 -- UI Intro
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToChapter(String, Boolean)
+WalesInteractive.WIST.Story:SetState(StoryState)
+WalesInteractive.Game.<Start>d__17:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+MakeChoice: Default --> db51ae0e-7170-438d-a285-01b30a2c6b72
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+WalesInteractive.Game.GameLogic:UpdateStory()
+WalesInteractive.Game.GameLogic:Update()
+
+GoToNode: db51ae0e-7170-438d-a285-01b30a2c6b72
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+WalesInteractive.Game.GameLogic:UpdateStory()
+WalesInteractive.Game.GameLogic:Update()
+
+StoryNodeChanged db51ae0e-7170-438d-a285-01b30a2c6b72 -- UI 1.A.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+WalesInteractive.Game.GameLogic:UpdateStory()
+WalesInteractive.Game.GameLogic:Update()
+
+ShowChoiceButtons Bio_Creation (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+System.Threading.ParameterizedThreadStart:Invoke(Object)
+WalesInteractive.Video.VideoTextureSequence:VideoFirstFrame(VideoSourceComponent)
+System.Threading.ParameterizedThreadStart:Invoke(Object)
+WalesInteractive.Video.VideoTexture:VideoFirstFrame(VideoPlayer, Int64)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+
+ChoiceButtonPressed -1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Default --> fd9aef4c-589e-46c1-b2fe-06628bc76f8a
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: fd9aef4c-589e-46c1-b2fe-06628bc76f8a
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged fd9aef4c-589e-46c1-b2fe-06628bc76f8a -- UI Profile 0%
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Bio_Category_0% (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ChoiceButtonPressed -1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Default --> d797669f-d267-4a3e-84cb-8261b2825ef8
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: d797669f-d267-4a3e-84cb-8261b2825ef8
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged d797669f-d267-4a3e-84cb-8261b2825ef8 -- UI 1.B.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Bio_GallerySelection (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ChoiceButtonPressed 0
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Solo & smiling --> be5c52ec-6a32-495f-8214-bdacd6c732bd
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: be5c52ec-6a32-495f-8214-bdacd6c732bd
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryVariableChanged - PHOTO - SOLO & SMILING
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged 656a05a2-2bc0-4671-956d-06a0475603b4 -- UI Profile 25%
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Bio_Category_25% (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ChoiceButtonPressed -1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Default --> 54d2f782-165e-4056-8aa5-ebf4c2e5e779
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: 54d2f782-165e-4056-8aa5-ebf4c2e5e779
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged 54d2f782-165e-4056-8aa5-ebf4c2e5e779 -- UI 1.C.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Bio_ListSelection (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ChoiceButtonPressed 2
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Education --> e2f49005-8baf-4fee-8d8e-4d6e522a99cb
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: e2f49005-8baf-4fee-8d8e-4d6e522a99cb
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryVariableChanged - JOB - EDUCATION
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged c9e5a6d4-6b78-4ec7-b1b6-81f4c82d3223 -- UI Profile 50%
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Bio_Category_50% (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ChoiceButtonPressed -1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Default --> ea312b80-b86d-49be-ac22-2d716b9eaf00
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: ea312b80-b86d-49be-ac22-2d716b9eaf00
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged ea312b80-b86d-49be-ac22-2d716b9eaf00 -- UI 1.D.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Bio_ListSelection (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ChoiceButtonPressed 0
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Travel --> 9262e4cd-9d8e-452b-829b-3ec9ffcc6b26
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: 9262e4cd-9d8e-452b-829b-3ec9ffcc6b26
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryVariableChanged - INTEREST - TRAVEL
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged 47f30a7c-ba44-4369-b41b-f6984d7773c7 -- UI 1.E.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Bio_ListSelection (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ChoiceButtonPressed 3
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Technology --> c47d2ad3-a9f8-4d4c-be03-c346ecba39cb
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: c47d2ad3-a9f8-4d4c-be03-c346ecba39cb
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryVariableChanged - INTEREST - TECHNOLOGY
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged cd0b06f8-7930-4c82-aff1-364c33028d47 -- UI 1.F.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Bio_ListSelection (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ChoiceButtonPressed 5
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Partying --> 12359b46-cf86-48f6-a9e7-2fee9f12b5e3
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: 12359b46-cf86-48f6-a9e7-2fee9f12b5e3
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryVariableChanged - INTEREST - PARTYING
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged 7dbd8bc3-868f-480c-8e50-12b7ac0b9e7a -- UI Profile 75%
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Bio_Category_75% (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ChoiceButtonPressed -1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Default --> 7441477e-3765-4024-aa20-3e4929a1f954
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: 7441477e-3765-4024-aa20-3e4929a1f954
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged 7441477e-3765-4024-aa20-3e4929a1f954 -- UI 1.G.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Bio_ListSelection (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ChoiceButtonPressed 6
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Cancer --> 4ce7b781-3aa2-4e15-9c7d-5f796227a02c
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: 4ce7b781-3aa2-4e15-9c7d-5f796227a02c
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryVariableChanged - STAR SIGN - CANCER
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged f5f6fd85-7bad-471b-ac4b-08cb93d29402 -- UI 1.H.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+ShowChoiceButtons Dating_CompletePopUp (WalesInteractive.Game.ChoicePanel)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ShowChoiceButtons()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryEvent - achievement
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryEvent(StoryNodeEvent)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeNodeEvent(NodeEvent, Boolean)
+WalesInteractive.WIST.Story:UpdateEventTimer(Double, Boolean)
+WalesInteractive.Game.GameLogic:UpdateStory()
+WalesInteractive.Game.GameLogic:Update()
+
+[AchievementManager] UnlockAchievement 12
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Achievements.AchievementManager`3:UnlockAchievement(TAchievement)
+WalesInteractive.Game.GameLogic:StoryEvent(StoryNodeEvent)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeNodeEvent(NodeEvent, Boolean)
+WalesInteractive.WIST.Story:UpdateEventTimer(Double, Boolean)
+WalesInteractive.Game.GameLogic:UpdateStory()
+WalesInteractive.Game.GameLogic:Update()
+
+Unable to send 'Achievement: All Set Up' event (Result: 'AnalyticsDisabled').
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+UnityEngine.Analytics.AnalyticsEvent:Custom(String, IDictionary`2)
+WalesInteractive.Game.GameLogic:StoryEvent(StoryNodeEvent)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeNodeEvent(NodeEvent, Boolean)
+WalesInteractive.WIST.Story:UpdateEventTimer(Double, Boolean)
+WalesInteractive.Game.GameLogic:UpdateStory()
+WalesInteractive.Game.GameLogic:Update()
+
+ChoiceButtonPressed -1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:ChoiceButtonPressed(Int32)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+WalesInteractive.Game.ChoiceButton:InvokeOnPressed()
+System.Action:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+WalesInteractive.UI.ButtonControl:OnPointerClick(PointerEventData)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+WalesInteractive.UI.InputModule:ProcessMousePress(MouseButtonEventData)
+WalesInteractive.UI.InputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.EventSystem:Update()
+
+MakeChoice: Default --> 78540709-cf9b-4f96-a962-f3f9a5dc7e43
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:MakeChoice(StoryChoice)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+GoToNode: 78540709-cf9b-4f96-a962-f3f9a5dc7e43
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+StoryNodeChanged 78540709-cf9b-4f96-a962-f3f9a5dc7e43 -- SCENE 3+4
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryNodeChanged(StoryNode)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeOnNodeChanged(Boolean)
+WalesInteractive.WIST.Story:GoToNodeInChapter(Chapter, String, Boolean, Boolean)
+WalesInteractive.WIST.Story:GoToNode(String, Boolean)
+WalesInteractive.Game.GameLogic:ExecuteChoice(Boolean)
+System.Action:Invoke()
+WalesInteractive.UI.<FadeOut>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[MonoSingleton] Initialized SubtitleLoader
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Core.MonoSingleton`1:get_Instance()
+WalesInteractive.Subtitles.SubtitleSource:LoadSubtitles(String, Nullable`1)
+WalesInteractive.Game.GameLogic:LoadSubtitles()
+WalesInteractive.Game.GameLogic:VideoFirstFrame(VideoSourceComponent)
+System.Threading.ParameterizedThreadStart:Invoke(Object)
+WalesInteractive.Video.VideoTextureSequence:VideoFirstFrame(VideoSourceComponent)
+System.Threading.ParameterizedThreadStart:Invoke(Object)
+WalesInteractive.Video.VideoTexture:VideoFirstFrame(VideoPlayer, Int64)
+System.AssemblyLoadEventHandler:Invoke(Object, AssemblyLoadEventArgs)
+
+StoryEvent - open
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.GameLogic:StoryEvent(StoryNodeEvent)
+UnityEngine.Windows.Speech.DictationHypothesisDelegate:Invoke(String)
+WalesInteractive.WIST.Story:InvokeNodeEvent(NodeEvent, Boolean)
+WalesInteractive.WIST.Story:UpdateEventTimer(Double, Boolean)
+WalesInteractive.Game.GameLogic:UpdateStory()
+WalesInteractive.Game.GameLogic:Update()
+
+SoftMask will not work on Nickname (WalesInteractive.UI.LocalizedTextMeshProUGUI) because material Stencil Id:1, Op:Keep, Comp:Equal, WriteMask:0, ReadMask:1, ColorMask:All AlphaClip:False (NotoSansSC-Regular SDF Material) (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.WillRenderCanvases:Invoke()
+
+SoftMask will not work on Name (WalesInteractive.UI.LocalizedTextMeshProUGUI) because material Stencil Id:1, Op:Keep, Comp:Equal, WriteMask:0, ReadMask:1, ColorMask:All AlphaClip:False (NotoSansSC-Regular SDF Material) (UnityEngine.Material) doesn't support masking. Add masking support to your material or set Graphic's material to None to use a default one.
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogWarningFormat(Object, String, Object[])
+SoftMasking.SoftMaskable:GetModifiedMaterial(Material)
+TMPro.TMP_MaterialManager:GetMaterialForRendering(MaskableGraphic, Material)
+TMPro.TextMeshProUGUI:UpdateMaterial()
+TMPro.TextMeshProUGUI:Rebuild(CanvasUpdate)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+UnityEngine.WillRenderCanvases:Invoke()
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 41.498600 ms
+
+Unloading 303 unused Assets to reduce memory usage. Loaded Objects now: 3271.
+Total: 13.182700 ms (FindLiveObjects: 0.209000 ms CreateObjectMapping: 0.105800 ms MarkObjects: 12.366100 ms  DeleteObjects: 0.501300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3271.
+Total: 16.154700 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.098700 ms MarkObjects: 15.852000 ms  DeleteObjects: 0.013100 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.540300 ms
+[HUD] SceneLoaded Frontend
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WalesInteractive.Game.HUD:SceneLoaded(String)
+System.Action`1:Invoke(T)
+WalesInteractive.Game.<LoadSceneInternal>d__14:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3321.
+Total: 11.658400 ms (FindLiveObjects: 0.221100 ms CreateObjectMapping: 0.086000 ms MarkObjects: 11.305800 ms  DeleteObjects: 0.045300 ms)
+
+[LocalizationSystem] SetLocalizedPresence Presence_MainMenu
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+WalesInteractive.Localization.LocalizationSystem:SetLocalizedPresence(String)
+WalesInteractive.Game.<Start>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Setting up 10 worker threads for Enlighten.
+  Thread -> id: 61d0 -> priority: 1 
+  Thread -> id: 4224 -> priority: 1 
+  Thread -> id: 776c -> priority: 1 
+  Thread -> id: 80fc -> priority: 1 
+  Thread -> id: 7754 -> priority: 1 
+  Thread -> id: 6b64 -> priority: 1 
+  Thread -> id: 7bf8 -> priority: 1 
+  Thread -> id: 6bdc -> priority: 1 
+  Thread -> id: 18a0 -> priority: 1 
+  Thread -> id: 71d4 -> priority: 1 
+Curl error 42: Callback aborted
